@@ -1,0 +1,1 @@
+CREATE TABLE `dtiab`.`impresiones` (`id` INT NOT NULL AUTO_INCREMENT , `Responsable` VARCHAR(40) NOT NULL , `nombre_dependencia` VARCHAR(100) NOT NULL , `num_hojas` SMALLINT NOT NULL , `fecha` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 

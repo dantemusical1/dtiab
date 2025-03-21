@@ -1,0 +1,48 @@
+
+
+.card {
+
+    background-color: #0f0e0e; /* Fondo de la tarjeta */
+
+    border: none; /* Sin borde */
+
+}
+
+.card-title{
+    color:rgb(243, 246, 248)
+}
+
+
+
+label{
+
+    color:aliceblue;
+}
+/*
+.form-control {
+
+    background-color: #f7ecec; 
+
+    color: #ffffff;
+
+    border: 1px solid #444; 
+
+}
+*/
+
+
+.btn-primary {
+
+    background-color: #007bff; /* Color del botón */
+
+    border-color: #007bff; /* Borde del botón */
+
+}
+
+.btn-primary:hover {
+
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+
+    border-color: #0056b3; /* Borde del botón al pasar el mouse */
+
+}
