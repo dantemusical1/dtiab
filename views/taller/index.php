@@ -12,7 +12,9 @@
     include('../../config/conexion.php');
     ?>
 
-
+<?php
+include('menu.php')
+?>
 
 <table class="table table-dark table-hover">
     <thead>
