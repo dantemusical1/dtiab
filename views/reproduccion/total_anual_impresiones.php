@@ -55,7 +55,12 @@ include("menu-nav.php");
             </thead>
             <tbody>
             <?php
-            
+/**
+ * Aqui se separaran los controladores de la tabla del html como buena pra
+ */
+//include('controller/tabla_impresiones.php');
+
+    
 // Configuración de paginación
 $limit = 15; 
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1; // Página actual

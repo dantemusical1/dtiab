@@ -51,7 +51,7 @@ if (isset($_GET['id'])) {
                     <h5 class="text-center card-title">Modificar impresión</h5>
                 </div>
                 <div class="card-body pt-5">
-                    <form method="post" action="controller/actualizar_impresion.php">
+                    <form method="post" action="controller/modificar_impresion.php">
                         <input type="hidden" name="id" id="id_impresion" value="<?php echo $id; ?>">
 
                         <!-- Dependencia -->
